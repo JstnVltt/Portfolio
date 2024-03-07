@@ -1,7 +1,7 @@
 ---
 title: Get in touch
 featureImage:
-  src: '/phone.jpg'
+  src: '/Portfolio/phone.jpg'
   alt: phone
 seo:
   title: Contact

@@ -7,7 +7,7 @@ seo:
   title: About
   description: About Justin Valette
   image:
-    src: '/about.jpg'
+    src: '/Portfolio/about.jpg'
 ---
 
 ## Education
@@ -22,7 +22,7 @@ Currently Master 1. <br>
 **2017-2020** - Scientific Baccalauréat with highest honors at Lycée Germaine Tillon, Sain Bel, France
 
 ## Passions
-<img src="/books.jpg" alt="Books" style="width: 100%; height: 100%;">
+<img src="/Portfolio/books.jpg" alt="Books" style="width: 100%; height: 100%;">
 
 
 On my free time, I love to spend my free time reading books, such as fiction S.-F., in particular Isaac Asimov work. <br>

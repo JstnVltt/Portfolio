@@ -3,11 +3,11 @@ title: Starting to Learn Cybersecurity
 excerpt: Learning cybersecurity is one of my top goals. To achieve it, I wanted to get ahead of my formation by starting learning and practicing pentesting knowledge. There are a lot of ressources on the Internet but here, I will go through every website and tool that I tried and wanted to share as a good start in cybersecurity.
 publishDate: 'Mar 6 2024'
 featureImage:
-  src: '/hacking.jpg'
+  src: '/Portfolio/hacking.jpg'
   alt: padlock and keys from keyboard
 seo:
   image:
-    src: '/hacking.jpg'
+    src: '/Portfolio/hacking.jpg'
 --- 
 
 Learning cybersecurity is one of my top goals. To achieve it, I wanted to get ahead of my formation by starting learning and practicing pentesting knowledge in a safe and legal environment.

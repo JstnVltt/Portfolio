@@ -42,7 +42,7 @@ const siteConfig: SiteConfig = {
     title: '',
     description: 'Astro.js and Tailwind CSS theme for blogging by justgoodui.com',
     image: {
-        src: '/ovidius-preview.jpg',
+        src: '/Portfolio/ovidius-preview.jpg',
         alt: 'Ovidius - Astro.js and Tailwind CSS theme'
     },
     primaryNavLinks: [

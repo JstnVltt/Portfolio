@@ -3,12 +3,12 @@ title: A New Series of Capture The Flag using Docker
 excerpt: I wanted to learn how to use Docker since it's an important tool in nowadays IT environment. Since my goal is to work in cybersecurity, I was thinking "Why not doing so by creating some CTFs ?".
 publishDate: 'Mar 5 2024'
 featureImage:
-  src: '/bateau.jpg'
+  src: '/Portfolio/bateau.jpg'
   alt: Boat
 isFeatured: true
 seo:
   image:
-    src: '/docker.avif'
+    src: '/Portfolio/docker.avif'
 ---
 
 **Technologies** : Docker

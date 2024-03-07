@@ -3,11 +3,11 @@ title: 'An Overview of Programming Languages and Tools'
 excerpt: During my years at ENSEIRB-MATMECA, I learned a lot about tools used in the computer science world. Here is an overview of some that I know.
 publishDate: 'Mar 7 2024'
 featureImage:
-  src: '/coding.jpg'
+  src: '/Portfolio/coding.jpg'
   alt: Blue shapes
 seo:
   image:
-    src: '/post-9.jpg'
+    src: '/Portfolio/post-9.jpg'
 ---
 
 During my years at ENSEIRB-MATMECA, I learned a lot about tools used in the computer science world. Here is an overview of some that I know.
