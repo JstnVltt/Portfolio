@@ -48,19 +48,19 @@ const siteConfig: SiteConfig = {
     primaryNavLinks: [
         {
             text: 'Home',
-            href: '/'
+            href: '/Portfolio/'
         },
         {
             text: 'Projects',
-            href: '/blog'
+            href: '/Portfolio/blog'
         },
         {
             text: 'About',
-            href: '/about'
+            href: '/Portfolio/about'
         },
         {
             text: 'Contact',
-            href: '/contact'
+            href: '/Portfolio/contact'
         }/* ,
         {
             text: 'Download CV',
@@ -70,15 +70,15 @@ const siteConfig: SiteConfig = {
     secondaryNavLinks: [
         {
             text: 'About',
-            href: '/about'
+            href: '/Portfolio/about'
         },
         {
             text: 'Terms of Service',
-            href: '/terms'
+            href: '/Portfolio/terms'
         },
         {
             text: 'Contact',
-            href: '/contact'
+            href: '/Portfolio/contact'
         }/* ,
         {
             text: 'Download CV',
@@ -101,11 +101,11 @@ const siteConfig: SiteConfig = {
         title: 'Hello!',
         text: "My name is Justin VALETTE. I'm a computer science student based in Bordeaux, France. It's a pleasure to meet you!",
         avatar: {
-            src: '/photo.jpeg',
+            src: '/Portfolio/photo.jpeg',
             alt: 'Justin Case'
         },
         backgroundImage: {
-            src: '/hero.webp'
+            src: '/Portfolio/hero.webp'
         }
     },
     subscribe: {
