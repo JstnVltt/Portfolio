@@ -1,14 +1,17 @@
 ---
 title: Get in touch
+featureImage:
+  src: '/phone.jpg'
+  alt: phone
 seo:
   title: Contact
   description: Get in touch through email or social media! Let me know how I can help.
 ---
 
-Thank you for reaching out! Whether you have a question, a suggestion, or just want to share your thoughts, I'm all ears. Feel free to get in touch through any of the methods below:
+Thank you for reaching out! If you want to ask me a question or just get in touch, feel free to use any of the methods below:
 
 _Email:_
-Feel free to drop me an email at [example@example.com](mailto:example@example.com), and I'll do my best to respond as soon as possible.
+Drop me an email at [justin.valette@bordeaux-inp.fr](mailto:justin.valette@bordeaux-inp.fr), and I'll do my best to respond as soon as possible.
 
 _Social Media:_
-Connect with me on social media as well. Find me on [Twitter](https://twitter.com) or [LinkedIn](https://www.linkedin.com/).
+Connect with me on social media as well. Find me on [GitHub](https://github.com/JstnVltt) or [LinkedIn](https://www.linkedin.com/in/justin-valette-826054252/).
