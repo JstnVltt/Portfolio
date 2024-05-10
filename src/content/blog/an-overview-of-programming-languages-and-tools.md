@@ -24,6 +24,9 @@ During my years at ENSEIRB-MATMECA, I learned a lot about tools used in the comp
 <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.pngfind.com%2Fpngs%2Fm%2F261-2614514_bash-logo-shell-script-logo-png-transparent-png.png&f=1&nofb=1&ipt=34bda86519343f1fc623f02cd4abfcb9116d8b0d8627fa64ff96290f3f612a41&ipo=images" alt="Bash" style="width: 20%; height: 20%; margin-right: 10px;">
 </div>
 
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fbrandlogos.net%2Fwp-content%2Fuploads%2F2021%2F11%2Fjava-logo.png&f=1&nofb=1&ipt=875c0a447d4f64db66d50376ebb3e76c6114b16503e2b976157ba44d0c8c0bd1&ipo=images" alt="Java" style="width: 20%; height: 20%; margin-right: 10px;">
+</div>
+
 
 
 ## Database
