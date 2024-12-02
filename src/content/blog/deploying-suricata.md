@@ -48,9 +48,7 @@ The rules are located in the repertory **/etc/suricata/rules/**. We created a fi
 	alert tcp any any -> any 22 (msg: "Potential SSH Brute"; classtype:attempted-recon; flow:to_server; flags:S,12; threshold:type both, track by_src, count 3, seconds 5; sid:1000009; rev:1;)
 	alert tcp any any -> any 22 (msg: "Potential SSH Brute"; classtype:attempted-recon; flow:to_server; flags:S,12; threshold:type both, track by_src, count 3, seconds 5; sid:1000009; rev:1;)
 
-I also added some classifications in **/etc/suricata/classification.config** to personnalize the handling of priority :
-
-INSERER CLASSIFICATION AJOUTEE ICI
+I also added some classifications in **/etc/suricata/classification.config** to personnalize the handling of priority.
 
 
 # Results
