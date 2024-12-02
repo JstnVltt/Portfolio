@@ -1,6 +1,6 @@
 ---
 title: Learning IDS / IPS Tools with Suricata
-excerpt: Learning offensive cybersecurity is great, but developping skills in defensive cybersecurity could also be interesting. Let's give it a try!.
+excerpt: Learning offensive cybersecurity is great, but developping skills in defensive cybersecurity could also be interesting. Let's give it a try!
 publishDate: 'Dec 1 2024'
 featureImage:
   src: '/Portfolio/camera.jpg'
@@ -24,7 +24,7 @@ The attack scenario I created is the following : the attacker would ping the ser
 To setup this project, I created with VirtualBox two machines :
 
 - one Ubuntu to be the server.
-- one Kali Linux to serve the role of attacker. 
+- one Kali Linux to serve in the role of attacker. 
 
 The two machines were updated and put on a bridge network setup to be able to communicate to each other. I installed Suricata on the Ubuntu server and configured some alert rules to detect unusual activity.
 
@@ -39,23 +39,21 @@ The rules are located in the repertory **/etc/suricata/rules/**. We created a fi
 	# Nmap connection
 	alert tcp any any -> any any (msg:"Nmap SYN Scan"; flags:S; classtype:intrusion-low; threshold, track by_src, count 20, seconds 3; sid:1000002;)
 
-	# Netcat connection
-	alert tcp any any -> any 12345 (msg:"Possible Netcat listen on port 12345"; classtype:intrusion-low; flags:S,12; sid:1000008;)
-
 	# SSH
 	## Multiple unsuccessful attempts
 	alert tcp any any -> any 22 (msg: "Potential SSH Brute"; classtype:attempted-recon; flow:to_server; flags:S,12; threshold:type both, track by_src, count 3, seconds 2; sid:1000009; rev:1;)
 	alert tcp any any -> any 22 (msg: "Potential SSH Brute"; classtype:attempted-recon; flow:to_server; flags:S,12; threshold:type both, track by_src, count 3, seconds 5; sid:1000009; rev:1;)
 	alert tcp any any -> any 22 (msg: "Potential SSH Brute"; classtype:attempted-recon; flow:to_server; flags:S,12; threshold:type both, track by_src, count 3, seconds 5; sid:1000009; rev:1;)
 
-I also added some classifications in **/etc/suricata/classification.config** to personnalize the handling of priority.
+I also added a classification in **/etc/suricata/classification.config** to personnalize the handling of priority.
 
+	config classification: intrusion-low, Nmap or other attempt to gain information, 2
 
 # Results
 
 ## Ping
 
-The attacker is first pinging the Ubuntu server to see if it's available.
+The attacker is, at first, pinging the Ubuntu server to see if it's available.
 
 <img src="/Portfolio/ping_attacker.PNG" alt="ping" style="width: 100%; height: 20%; margin-right: 10px;">
 
